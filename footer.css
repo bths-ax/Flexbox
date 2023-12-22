@@ -5,6 +5,9 @@ body {
 .footer {
   height: 150px;
   background-color: lightgrey;
+
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .title {
@@ -26,4 +29,16 @@ body {
     Roboto,
     "Helvetica Neue",
     sans-serif;
+}
+
+#one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
